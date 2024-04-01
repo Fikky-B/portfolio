@@ -1,0 +1,47 @@
+/* desktop app  */
+
+@media (min-width:996px) {
+    .hero-container {
+        /* max-width: 1152px; */
+        /* margin: auto; */
+        display: flex;
+        color: #21243D;
+        justify-content: space-around;
+        /* align-items: center; */
+        margin-top: 6rem;
+        gap: 5rem;
+    }
+
+    
+    .resume-btn {
+        background-color: #ff6464;
+        color: #ffffff;
+        padding: 5px 12px;
+    }
+}
+
+
+/* mobile app  */
+
+@media (min-width:375px) {
+.hero-container {
+    color: #21243D;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.resume-btn {
+    background-color: #ff6464;
+    color: #ffffff;
+    padding: 5px 12px;
+    text-decoration: none;
+}
+.hero-text2 {
+    order: 1;
+        }
+        .hero-img {
+    order: 2;
+}
+}

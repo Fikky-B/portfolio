@@ -1,18 +1,46 @@
-.header{
-    max-width: 1500px;
-    margin: auto;
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
-
-.nav-area ul {
+body {
+    font-family: "Heebo", sans-serif;
+}
+/* nav area  */
+/* desktop app  */
+@media (min-width: 996px) {
+.navbar ul {
     display: flex;
     justify-content: right;
+    margin: auto;
     gap: 2rem;
     list-style: none;
     margin-top: 27px;
+    margin-right: 3rem;
     font-weight: 500;
 }
  a {
     text-decoration: none;
     color: #000000;
 }
+}
+
+
+/* mobile app  */
+@media (min-width: 375px) {
+    .navbar ul {
+        display: flex;
+        margin-left: 7rem;
+        gap: 2rem;
+        list-style: none;
+        margin-top: 27px;
+        font-weight: 500;
+        
+    }
+     a {
+        text-decoration: none;
+        color: #000000;
+    }
+    }
