@@ -1,68 +1,89 @@
-@media (min-width: 996px) {
-    .features {
-        max-width: 900px;
-        margin: auto;
-        margin-top: 1rem;
-    }
-    .board {
-        display: flex;
-        max-width: 900px;
-        margin: auto;
-        gap: 1rem;
-        margin-top: 1.5rem;
-        margin-bottom: 1rem;
-    }
-    .dashboard {
-        display: flex;
-        gap: 2rem;
-    }
-    .date {
-        padding: 1px 7px;
-        background-color:#142850;
-        color: #ffffff;
-        font-weight: 900;
-        border-radius: 30px;
-    }
-    .event {
-        color:#8695A4;
-    }
-    .event-text {
-        color: #21243D;
-    }
-    hr {
-         border: 1px solid #E0E0E0;
-         max-width: 830px;
-         margin: auto;
-    }
-}
+   .png {
+       background-color: #ffffff;
+       padding: 1rem 1rem;
+          }
 
-@media (min-width:375px) {
-    .features {
-        margin-top: 1rem;
-        text-align: center;
+  .features {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+      .hide {
+        display: none;
       }
-      .board {
-        gap: 1rem;
-        margin: 1.5rem 1rem 1rem 1rem;
+
+      .png-30 {
+        width: 339px;
+        height: 230px;
       }
+      
+      .event{
+       color: #8695a4
+      }
+
       .dashboard {
         display: flex;
         gap: 2rem;
       }
+
       .date {
+        width: 62px;
         padding: 1px 7px;
-        background-color:#142850;
+        background-color: #142850;
         color: #ffffff;
         font-weight: 900;
-        border-radius: 30px;
+        border-radius: 16px;
+        text-align: center;
       }
-      .event {
-        color:#8695A4;
-      }
+
       .event-text {
-        color: #21243D;
+        margin-bottom: 1rem;
+        color: #21243d;
+      }
+      
+      hr {
+        color: #e0e0e0;
+        border: 1px solid;
+        align-content: center;
+      }
+
+
+    @media (min-width:1152px) {
+      .png,.hide {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .board {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+      }
+      .png {
+        margin: 0;
+        padding: 0;
+      }
+      .png-34,.png-32,.png-30 {
+        width: 246px;
+        height: 180px;
+      }
+      .sect {
+        padding: 2rem 8rem 1.5rem;
+      }
+
+      .hide {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+      .features {
+        text-align: left;
+        margin-bottom: 2rem;
       }
       hr {
-         border: 1px solid #E0E0E0;
+        color: #e0e0e0;
+        border: 1px solid;
+        align-content: center;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
       }
-}
+    }

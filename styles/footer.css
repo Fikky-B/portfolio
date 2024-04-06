@@ -14,9 +14,14 @@
     margin-bottom: 3rem;
 
 }
+.foot {
+    padding-top:6rem;
+    padding-bottom: 2rem;
+}
 
-/* mobile app  */
-@media (min-width:375px) {
+/* desktop app  */
+
+@media (min-width:1152px) {
     .footer {
         display: flex;
         justify-content: center;
@@ -31,6 +36,9 @@
         text-align: center;
         color: #21243D;
         margin-bottom: 3rem;
-    
+    }
+    .foot {
+        padding-top:3rem;
+        padding-bottom: 2rem;
     }
 }
