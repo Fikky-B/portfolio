@@ -21,7 +21,7 @@
 
 /* desktop app  */
 
-@media (min-width:1152px) {
+@media (min-width:992px) {
     .footer {
         display: flex;
         justify-content: center;

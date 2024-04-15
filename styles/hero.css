@@ -5,11 +5,11 @@
         align-items: center;
         padding: 1.5rem 1.5rem 3rem;
     }
-    .hero-img {
+    .hero-image {
         margin-bottom: 2rem;
     }
     
-    .john {
+    .hero-text {
         font-size: 32px;
         font-weight: 700;
         line-height: 40px;
@@ -18,7 +18,7 @@
         margin-bottom: 1rem;
     }
 
-    .amet {
+    .hero-paragraph {
         font-size: 16px;
         font-weight: 400;
         line-height: 23.5px;
@@ -42,18 +42,18 @@
 
     /* desktop app  */
 
-@media (min-width: 1152px) {
+@media (min-width: 992px) {
     .hero-container {
         display: flex;
         flex-direction: row-reverse;
-        justify-content: left;
-        align-items:self-start;
-        padding: 8rem 8rem 3rem;
+        justify-content: space-between;
+        align-items: center;
+        padding: 6rem 6rem 3rem;
         margin-top: 2rem;
-        gap: 8rem;
+        gap: 4rem;
     }
 
-    .john {
+    .hero-text {
         width: 506px;
         height: 105px;
         top: 228px;
@@ -66,7 +66,7 @@
         text-align: left;
     }
 
-    .amet {
+    .hero-paragraph {
         width: 506px;
         height: 105px;
         top: 228px;
@@ -89,8 +89,7 @@
         background-color: #ff6464;
         color: #ffffff;
         border-radius: 2px;
-        font-size: large;
-        text-align: left;
+        font-size: 18px;
         margin-top: 1rem;
     }
 }

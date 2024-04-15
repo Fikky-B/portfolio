@@ -10,38 +10,38 @@ body {
     color: #21243d;
 }
 /* nav area  */
-/* desktop app  */
-@media (min-width: 996px) {
+
+/* mobile app  */
+
 .navbar ul {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     margin: auto;
     gap: 2rem;
     list-style: none;
     margin-top: 27px;
-    margin-right: 3rem;
     font-weight: 500;
 }
- a {
+a {
     text-decoration: none;
     color: #000000;
 }
+
+
+
+/* desktop app  */
+
+
+@media (min-width:618px) {
+    .navbar ul {
+        gap: 5rem;
+    }
 }
 
-
-/* mobile app  */
-@media (min-width: 375px) {
+@media (min-width: 992px) {
     .navbar ul {
-        display: flex;
-        margin-left: 7rem;
+        justify-content: right;
+        margin-right: 3rem;
         gap: 2rem;
-        list-style: none;
-        margin-top: 27px;
-        font-weight: 500;
-        
-    }
-     a {
-        text-decoration: none;
-        color: #000000;
     }
     }

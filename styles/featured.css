@@ -52,7 +52,7 @@
       }
 
 
-    @media (min-width:1152px) {
+    @media (min-width:992px) {
       .png,.hide {
         display: flex;
         flex-direction: column;
@@ -63,16 +63,14 @@
         justify-content: center;
         gap: 1rem;
       }
-      .png {
-        /* margin: 0; */
-        /* padding: 0; */
-      }
+  
       .png-34,.png-32,.png-30 {
         width: 246px;
         height: 180px;
       }
-      .sect {
-        padding: 2rem 8rem 1.5rem;
+      
+      .feature-section {
+        padding: 2rem 6rem 1.5rem;
       }
 
       .hide {
@@ -91,3 +89,6 @@
         margin-bottom: 0.5rem;
       }
     }
+
+    
+      
