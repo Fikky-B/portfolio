@@ -1,0 +1,44 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #21243D;
+    gap: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 0.5rem;
+    padding: 10px;
+}
+.copyright {
+    text-align: center;
+    color: #21243D;
+    margin-bottom: 3rem;
+
+}
+.foot {
+    padding-top:6rem;
+    padding-bottom: 2rem;
+}
+
+/* desktop app  */
+
+@media (min-width:992px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #21243D;
+        gap: 2rem;
+        margin-top: 5rem;
+        margin-bottom: 0.5rem;
+        padding: 10px;
+    }
+    .copyright {
+        text-align: center;
+        color: #21243D;
+        margin-bottom: 3rem;
+    }
+    .foot {
+        padding-top:3rem;
+        padding-bottom: 2rem;
+    }
+}
